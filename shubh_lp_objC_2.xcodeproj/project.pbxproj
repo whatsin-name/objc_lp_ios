@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2C8D886C684D150C63F24C /* Pods_shubh_lp_objC_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B6E698B299F75BC07CD /* Pods_shubh_lp_objC_2.framework */; };
 		86FE4FAE2A89864B00578F96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FE4FAD2A89864B00578F96 /* AppDelegate.m */; };
 		86FE4FB12A89864B00578F96 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FE4FB02A89864B00578F96 /* SceneDelegate.m */; };
 		86FE4FB42A89864B00578F96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FE4FB32A89864B00578F96 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 		86FE4FC92A89864C00578F96 /* shubh_lp_objC_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FE4FC82A89864C00578F96 /* shubh_lp_objC_2Tests.m */; };
 		86FE4FD32A89864C00578F96 /* shubh_lp_objC_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FE4FD22A89864C00578F96 /* shubh_lp_objC_2UITests.m */; };
 		86FE4FD52A89864C00578F96 /* shubh_lp_objC_2UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FE4FD42A89864C00578F96 /* shubh_lp_objC_2UITestsLaunchTests.m */; };
+		CA570DEC38DD6688DB1622ED /* Pods_shubh_lp_objC_2_shubh_lp_objC_2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BF25D76B40AC65E9E3C74F /* Pods_shubh_lp_objC_2_shubh_lp_objC_2UITests.framework */; };
+		E5CBF5056766342A557E4B96 /* Pods_shubh_lp_objC_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1AE0A11BA06664E72045CD /* Pods_shubh_lp_objC_2Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AC8815FA47F5D7E59D2707A /* Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.release.xcconfig"; path = "Target Support Files/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B1AE0A11BA06664E72045CD /* Pods_shubh_lp_objC_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shubh_lp_objC_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5A9781415EDD48BEDD9A08 /* Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.debug.xcconfig"; path = "Target Support Files/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D48436F4430830C8AC93C7F /* Pods-shubh_lp_objC_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shubh_lp_objC_2.debug.xcconfig"; path = "Target Support Files/Pods-shubh_lp_objC_2/Pods-shubh_lp_objC_2.debug.xcconfig"; sourceTree = "<group>"; };
 		86FE4FA92A89864B00578F96 /* shubh_lp_objC_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shubh_lp_objC_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FE4FAC2A89864B00578F96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86FE4FAD2A89864B00578F96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +61,11 @@
 		86FE4FCE2A89864C00578F96 /* shubh_lp_objC_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shubh_lp_objC_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FE4FD22A89864C00578F96 /* shubh_lp_objC_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shubh_lp_objC_2UITests.m; sourceTree = "<group>"; };
 		86FE4FD42A89864C00578F96 /* shubh_lp_objC_2UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shubh_lp_objC_2UITestsLaunchTests.m; sourceTree = "<group>"; };
+		8A88C00903548E67A2A6CC06 /* Pods-shubh_lp_objC_2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shubh_lp_objC_2Tests.release.xcconfig"; path = "Target Support Files/Pods-shubh_lp_objC_2Tests/Pods-shubh_lp_objC_2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AEBD5DEECD95BFF90A4C1A81 /* Pods-shubh_lp_objC_2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shubh_lp_objC_2Tests.debug.xcconfig"; path = "Target Support Files/Pods-shubh_lp_objC_2Tests/Pods-shubh_lp_objC_2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4482B6E698B299F75BC07CD /* Pods_shubh_lp_objC_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shubh_lp_objC_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BF25D76B40AC65E9E3C74F /* Pods_shubh_lp_objC_2_shubh_lp_objC_2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shubh_lp_objC_2_shubh_lp_objC_2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB96C1AF6A02F98BB67A5454 /* Pods-shubh_lp_objC_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shubh_lp_objC_2.release.xcconfig"; path = "Target Support Files/Pods-shubh_lp_objC_2/Pods-shubh_lp_objC_2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2C8D886C684D150C63F24C /* Pods_shubh_lp_objC_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CBF5056766342A557E4B96 /* Pods_shubh_lp_objC_2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA570DEC38DD6688DB1622ED /* Pods_shubh_lp_objC_2_shubh_lp_objC_2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28B41C85FAD233FA8E39DAA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D48436F4430830C8AC93C7F /* Pods-shubh_lp_objC_2.debug.xcconfig */,
+				FB96C1AF6A02F98BB67A5454 /* Pods-shubh_lp_objC_2.release.xcconfig */,
+				4B5A9781415EDD48BEDD9A08 /* Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.debug.xcconfig */,
+				1AC8815FA47F5D7E59D2707A /* Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.release.xcconfig */,
+				AEBD5DEECD95BFF90A4C1A81 /* Pods-shubh_lp_objC_2Tests.debug.xcconfig */,
+				8A88C00903548E67A2A6CC06 /* Pods-shubh_lp_objC_2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		86FE4FA02A89864B00578F96 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,8 @@
 				86FE4FC72A89864C00578F96 /* shubh_lp_objC_2Tests */,
 				86FE4FD12A89864C00578F96 /* shubh_lp_objC_2UITests */,
 				86FE4FAA2A89864B00578F96 /* Products */,
+				28B41C85FAD233FA8E39DAA2 /* Pods */,
+				E1F322FA1CF9D6C945324F8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +166,16 @@
 			path = shubh_lp_objC_2UITests;
 			sourceTree = "<group>";
 		};
+		E1F322FA1CF9D6C945324F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4482B6E698B299F75BC07CD /* Pods_shubh_lp_objC_2.framework */,
+				F6BF25D76B40AC65E9E3C74F /* Pods_shubh_lp_objC_2_shubh_lp_objC_2UITests.framework */,
+				2B1AE0A11BA06664E72045CD /* Pods_shubh_lp_objC_2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86FE4FD82A89864C00578F96 /* Build configuration list for PBXNativeTarget "shubh_lp_objC_2" */;
 			buildPhases = (
+				99E130E2115B5920F2A29E21 /* [CP] Check Pods Manifest.lock */,
 				86FE4FA52A89864B00578F96 /* Sources */,
 				86FE4FA62A89864B00578F96 /* Frameworks */,
 				86FE4FA72A89864B00578F96 /* Resources */,
+				B91F8C251675C4F28A2E7BCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86FE4FDB2A89864C00578F96 /* Build configuration list for PBXNativeTarget "shubh_lp_objC_2Tests" */;
 			buildPhases = (
+				11A13DFAA84C6F16190EF599 /* [CP] Check Pods Manifest.lock */,
 				86FE4FC02A89864C00578F96 /* Sources */,
 				86FE4FC12A89864C00578F96 /* Frameworks */,
 				86FE4FC22A89864C00578F96 /* Resources */,
@@ -178,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86FE4FDE2A89864C00578F96 /* Build configuration list for PBXNativeTarget "shubh_lp_objC_2UITests" */;
 			buildPhases = (
+				7DFFCDFFA9ABC365B422B50E /* [CP] Check Pods Manifest.lock */,
 				86FE4FCA2A89864C00578F96 /* Sources */,
 				86FE4FCB2A89864C00578F96 /* Frameworks */,
 				86FE4FCC2A89864C00578F96 /* Resources */,
+				7FCACC82E9137E05D26FE6A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11A13DFAA84C6F16190EF599 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shubh_lp_objC_2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DFFCDFFA9ABC365B422B50E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FCACC82E9137E05D26FE6A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests/Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E130E2115B5920F2A29E21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shubh_lp_objC_2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91F8C251675C4F28A2E7BCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shubh_lp_objC_2/Pods-shubh_lp_objC_2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shubh_lp_objC_2/Pods-shubh_lp_objC_2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shubh_lp_objC_2/Pods-shubh_lp_objC_2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86FE4FA52A89864B00578F96 /* Sources */ = {
@@ -437,11 +585,13 @@
 		};
 		86FE4FD92A89864C00578F96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D48436F4430830C8AC93C7F /* Pods-shubh_lp_objC_2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = shubh_lp_objC_2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -454,7 +604,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test-shu.shubh-lp-objC-2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.CleverTapIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,11 +613,13 @@
 		};
 		86FE4FDA2A89864C00578F96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB96C1AF6A02F98BB67A5454 /* Pods-shubh_lp_objC_2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = shubh_lp_objC_2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,7 +632,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test-shu.shubh-lp-objC-2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.CleverTapIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,6 +641,7 @@
 		};
 		86FE4FDC2A89864C00578F96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBD5DEECD95BFF90A4C1A81 /* Pods-shubh_lp_objC_2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -506,6 +659,7 @@
 		};
 		86FE4FDD2A89864C00578F96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A88C00903548E67A2A6CC06 /* Pods-shubh_lp_objC_2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		86FE4FDF2A89864C00578F96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5A9781415EDD48BEDD9A08 /* Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -538,6 +693,7 @@
 		};
 		86FE4FE02A89864C00578F96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC8815FA47F5D7E59D2707A /* Pods-shubh_lp_objC_2-shubh_lp_objC_2UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

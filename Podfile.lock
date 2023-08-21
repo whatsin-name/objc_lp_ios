@@ -1,0 +1,16 @@
+PODS:
+  - Leanplum-iOS-SDK (5.0.0)
+
+DEPENDENCIES:
+  - Leanplum-iOS-SDK (= 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Leanplum-iOS-SDK
+
+SPEC CHECKSUMS:
+  Leanplum-iOS-SDK: b2cdfee9741e0a9eb428785123d043fbbc319fa1
+
+PODFILE CHECKSUM: 6ee63f97a63bc8856fd00cab240163546d13fb87
+
+COCOAPODS: 1.12.1
