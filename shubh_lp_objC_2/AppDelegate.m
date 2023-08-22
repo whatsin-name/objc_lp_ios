@@ -72,8 +72,13 @@
 //(Optional) You may choose to enable the Remote Notifications background mode on iOS 7+ to preload the notification action. This is configurable in your XCode project settings > Capabilities > Background Modes. If you have this enabled, you must tell Leanplum to explicitly handle notifications in your app delegate:
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+   
+    completionHandler(UIBackgroundFetchResultNewData);
+    
     NSInteger badge = [[UIApplication sharedApplication] applicationIconBadgeNumber];
     [[UIApplication sharedApplication] setApplicationIconBadgeNumber: badge + 1];
+    
+    
     
     completionHandler(UIBackgroundFetchResultNewData);
 }
