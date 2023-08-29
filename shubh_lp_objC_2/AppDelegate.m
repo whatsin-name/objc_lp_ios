@@ -32,7 +32,7 @@
     
 //     [Leanplum setDeviceId:@"new_DeviceID"];
     [Leanplum trackInAppPurchases];
-   // [Leanplum setVerboseLoggingInDevelopmentMode:YES];
+    [Leanplum inbox];
     [Leanplum start];
     
     [[UNUserNotificationCenter currentNotificationCenter] requestAuthorizationWithOptions:

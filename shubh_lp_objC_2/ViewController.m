@@ -75,6 +75,7 @@
 
 - (IBAction)trackButtonClick:(id)sender {
     [Leanplum track:@"firstEvent"];
+    
 }
 
 - (void)viewDidLoad {
