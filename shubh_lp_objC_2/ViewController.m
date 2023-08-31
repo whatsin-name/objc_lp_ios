@@ -26,6 +26,7 @@
 }
 
 - (IBAction)pushButton:(id)sender {
+    
     NSLog(@"you clicked on Push Notification registration button");
     
     id notificationCenterClass = NSClassFromString(@"UNUserNotificationCenter");
@@ -75,11 +76,14 @@
 
 - (IBAction)trackButtonClick:(id)sender {
     [Leanplum track:@"firstEvent"];
-    
+   
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[Leanplum inbox] onChanged:^() {
+    //    unreadCountLabel.text = [NSString stringWithFormat:@"%@", @([[Leanplum inbox] unreadCount])];
+    }];
     // Do any additional setup after loading the view, typically from a nib.
     
 }
