@@ -14,58 +14,7 @@
 
 @implementation AppDelegate
 
-/*- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    
-    // Define LP_APP_ID, LP_DEVELOPMENT_KEY and LP_PRODUCTION_KEY in Keys.h
-#ifdef DEBUG
-  [Leanplum setAppId:@"app_PMtXD9BDoOM9fGR3vMfdTKfkQsaTg9ekHZOza4f0YkI"
-   withDevelopmentKey:@"dev_Xczg4fOZRaXiZGvwRnyUSyRebOabMHEMboWEDVGRWdk"];
-#else
-  [Leanplum setAppId:@"app_PMtXD9BDoOM9fGR3vMfdTKfkQsaTg9ekHZOza4f0YkI"
-   withProductionKey:@"prod_FcKFwPjFXiB0d7Xc0Ai5miU9b6YHGu6uS8OzW9d9gis"];
-#endif
-    
-    // In case a DeviceID needs to be customized, it should be put here, before [Leanplum start].
-    // setDeviceID will pass a DeviceID as string and set it only when the app is installed from scratch.
-    // Is not possible to change the DeviceID of an already installed application.
-    
-//     [Leanplum setDeviceId:@"new_DeviceID"];
-    
-    
-    id notificationCenterClass = NSClassFromString(@"UNUserNotificationCenter");
-    if (notificationCenterClass) {
-        // iOS 10.
-        SEL selector = NSSelectorFromString(@"currentNotificationCenter");
-        id notificationCenter =
-        ((id (*)(id, SEL)) [notificationCenterClass methodForSelector:selector])
-        (notificationCenterClass, selector);
-        if (notificationCenter) {
-            selector = NSSelectorFromString(@"requestAuthorizationWithOptions:completionHandler:");
-            IMP method = [notificationCenter methodForSelector:selector];
-            void (*func)(id, SEL, unsigned long long, void (^)(BOOL, NSError *__nullable)) =
-            (void *) method;
-            func(notificationCenter, selector,
-                 0b111,
-                 ^(BOOL granted, NSError *__nullable error) {
-                if (granted) {
-                    [[UIApplication sharedApplication] registerForRemoteNotifications];
-                }
-                if (error) {
-                    NSLog(@"Leanplum: Failed to request authorization for user "
-                          "notifications: %@", error);
-                }
-            });
-        }
-            [[UNUserNotificationCenter currentNotificationCenter] requestAuthorizationWithOptions:
-             UNAuthorizationOptionAlert|UNAuthorizationOptionBadge|UNAuthorizationOptionSound
-                                                                                completionHandler:^(BOOL granted, NSError * _Nullable error) {
-                NSLog(@"Granted? %@", granted ? @"YES" : @"NO");
-                NSLog(@"Error: %@", error);
-            }];
-            return YES;
-        }
-*/
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
@@ -77,32 +26,16 @@
   [Leanplum setAppId:@"app_PMtXD9BDoOM9fGR3vMfdTKfkQsaTg9ekHZOza4f0YkI"
    withProductionKey:@"prod_FcKFwPjFXiB0d7Xc0Ai5miU9b6YHGu6uS8OzW9d9gis"];
 #endif
+    [Leanplum start];
+    [Leanplum inbox];
+    [Leanplum trackInAppPurchases];
     
-    id notificationCenterClass = NSClassFromString(@"UNUserNotificationCenter");
-    if (notificationCenterClass) {
-        // iOS 10.
-        SEL selector = NSSelectorFromString(@"currentNotificationCenter");
-        id notificationCenter =
-        ((id (*)(id, SEL)) [notificationCenterClass methodForSelector:selector])
-        (notificationCenterClass, selector);
-        if (notificationCenter) {
-            selector = NSSelectorFromString(@"requestAuthorizationWithOptions:completionHandler:");
-            IMP method = [notificationCenter methodForSelector:selector];
-            void (*func)(id, SEL, unsigned long long, void (^)(BOOL, NSError *__nullable)) =
-            (void *) method;
-            func(notificationCenter, selector,
-                 0b111, /* badges, sounds, alerts */
-                 ^(BOOL granted, NSError *__nullable error) {
-                     if (granted) {
-                        [[UIApplication sharedApplication] registerForRemoteNotifications];
-                     }
-                     if (error) {
-                         NSLog(@"Leanplum: Failed to request authorization for user "
-                               "notifications: %@", error);
-                     }
-                 });
-        }
-    }
+    [[UNUserNotificationCenter currentNotificationCenter] requestAuthorizationWithOptions:
+        UNAuthorizationOptionAlert|UNAuthorizationOptionBadge|UNAuthorizationOptionSound
+               completionHandler:^(BOOL granted, NSError * _Nullable error) {
+                 NSLog(@"Granted? %@", granted ? @"YES" : @"NO");
+                 NSLog(@"Error: %@", error);
+               }];
     return YES;
 }
 
