@@ -31,9 +31,7 @@
     // Is not possible to change the DeviceID of an already installed application.
     
 //     [Leanplum setDeviceId:@"new_DeviceID"];
-    [Leanplum trackInAppPurchases];
-    [Leanplum inbox];
-    [Leanplum start];
+    
     
     id notificationCenterClass = NSClassFromString(@"UNUserNotificationCenter");
     if (notificationCenterClass) {
@@ -71,6 +69,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+   
+#ifdef DEBUG
+  [Leanplum setAppId:@"app_PMtXD9BDoOM9fGR3vMfdTKfkQsaTg9ekHZOza4f0YkI"
+   withDevelopmentKey:@"dev_Xczg4fOZRaXiZGvwRnyUSyRebOabMHEMboWEDVGRWdk"];
+#else
+  [Leanplum setAppId:@"app_PMtXD9BDoOM9fGR3vMfdTKfkQsaTg9ekHZOza4f0YkI"
+   withProductionKey:@"prod_FcKFwPjFXiB0d7Xc0Ai5miU9b6YHGu6uS8OzW9d9gis"];
+#endif
     
     id notificationCenterClass = NSClassFromString(@"UNUserNotificationCenter");
     if (notificationCenterClass) {
